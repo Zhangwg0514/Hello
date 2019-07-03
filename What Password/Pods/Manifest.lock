@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.8.2)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - UMCCommon (2.0.1)
+  - UMCPush (3.2.4):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - SnapKit
+  - SVProgressHUD
+  - UMCCommon
+  - UMCPush
+  - UMCSecurityPlugins
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SnapKit
+    - SVProgressHUD
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UMCCommon: 0263a057a2e1ae1da4c8308541e56904a493ce13
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: 82300fcb0050a456414ba89e8691ef620a3f1ed0
+
+COCOAPODS: 1.7.0.beta.3

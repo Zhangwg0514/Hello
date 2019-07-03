@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5A264422963854006C155F /* ELCatePickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A264322963854006C155F /* ELCatePickView.swift */; };
+		4B5A264622964807006C155F /* ELUserSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A264522964807006C155F /* ELUserSettingView.swift */; };
+		4B5A264822966E4A006C155F /* ELEditNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A264722966E4A006C155F /* ELEditNameView.swift */; };
+		4B5A264A22968967006C155F /* ELEditPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A264922968966006C155F /* ELEditPassView.swift */; };
+		4B5A264C22968AC3006C155F /* ELEditPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A264B22968AC3006C155F /* ELEditPromptView.swift */; };
+		4B5A264E22968D04006C155F /* ELAboutUSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A264D22968D04006C155F /* ELAboutUSController.swift */; };
+		4B8B60F2229539E70014A1D9 /* ELAddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B60F1229539E70014A1D9 /* ELAddUserView.swift */; };
+		4B8B60F422953BFB0014A1D9 /* ELUserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B60F322953BFB0014A1D9 /* ELUserLoginView.swift */; };
+		4B90B77A2293A63C00D3C6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7792293A63C00D3C6E4 /* AppDelegate.swift */; };
+		4B90B7812293A65F00D3C6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B90B7802293A65F00D3C6E4 /* Assets.xcassets */; };
+		4B90B7842293A65F00D3C6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B90B7822293A65F00D3C6E4 /* LaunchScreen.storyboard */; };
+		4B90B78D2293A71900D3C6E4 /* ELUtilFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B78C2293A71900D3C6E4 /* ELUtilFunctions.swift */; };
+		4B90B78F2293AA9B00D3C6E4 /* ELEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B78E2293AA9B00D3C6E4 /* ELEXT.swift */; };
+		4B90B7912293AE4900D3C6E4 /* ELDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7902293AE4900D3C6E4 /* ELDatabase.swift */; };
+		4B90B7942293AE6500D3C6E4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B90B7932293AE6500D3C6E4 /* libsqlite3.0.tbd */; };
+		4B90B7962293C4C700D3C6E4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B90B7952293C4C700D3C6E4 /* CoreData.framework */; };
+		4B90B7992293C64A00D3C6E4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7972293C64A00D3C6E4 /* Model.xcdatamodeld */; };
+		4B90B7C12293CD3C00D3C6E4 /* ELBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7C02293CD3C00D3C6E4 /* ELBaseController.swift */; };
+		4B90B7C32293CD5A00D3C6E4 /* ELNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7C22293CD5A00D3C6E4 /* ELNavController.swift */; };
+		4B90B7C52293CD7800D3C6E4 /* ELTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7C42293CD7800D3C6E4 /* ELTabController.swift */; };
+		4B90B7C72293D39D00D3C6E4 /* ELAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7C62293D39D00D3C6E4 /* ELAccountController.swift */; };
+		4B90B7C92293D3AF00D3C6E4 /* ELUsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7C82293D3AF00D3C6E4 /* ELUsersController.swift */; };
+		4B90B7CB2293D3BE00D3C6E4 /* ELSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7CA2293D3BE00D3C6E4 /* ELSettingController.swift */; };
+		4B90B7CE2293D9A000D3C6E4 /* ELAddAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7CD2293D9A000D3C6E4 /* ELAddAccountView.swift */; };
+		4B90B7D02293EA5800D3C6E4 /* ELModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B90B7CF2293EA5800D3C6E4 /* ELModels.swift */; };
+		4BB306942296CACE00201ABE /* ELForgetPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB306932296CACE00201ABE /* ELForgetPassView.swift */; };
+		632B442622A76E9E00485CFD /* NFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632B442522A76E9E00485CFD /* NFButton.swift */; };
+		632B442822A77B0F00485CFD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632B442722A77B0F00485CFD /* UIColor.swift */; };
+		8DE30A06CE841F97979F790F /* Pods_Never_Forget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731C5AE1A3E038AB0F397D98 /* Pods_Never_Forget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B5A264322963854006C155F /* ELCatePickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELCatePickView.swift; sourceTree = "<group>"; };
+		4B5A264522964807006C155F /* ELUserSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELUserSettingView.swift; sourceTree = "<group>"; };
+		4B5A264722966E4A006C155F /* ELEditNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEditNameView.swift; sourceTree = "<group>"; };
+		4B5A264922968966006C155F /* ELEditPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEditPassView.swift; sourceTree = "<group>"; };
+		4B5A264B22968AC3006C155F /* ELEditPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEditPromptView.swift; sourceTree = "<group>"; };
+		4B5A264D22968D04006C155F /* ELAboutUSController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELAboutUSController.swift; sourceTree = "<group>"; };
+		4B8B60F1229539E70014A1D9 /* ELAddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELAddUserView.swift; sourceTree = "<group>"; };
+		4B8B60F322953BFB0014A1D9 /* ELUserLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELUserLoginView.swift; sourceTree = "<group>"; };
+		4B90B7762293A63C00D3C6E4 /* Never Forget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Never Forget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B90B7792293A63C00D3C6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B90B7802293A65F00D3C6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B90B7832293A65F00D3C6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B90B7852293A65F00D3C6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B90B78C2293A71900D3C6E4 /* ELUtilFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELUtilFunctions.swift; sourceTree = "<group>"; };
+		4B90B78E2293AA9B00D3C6E4 /* ELEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEXT.swift; sourceTree = "<group>"; };
+		4B90B7902293AE4900D3C6E4 /* ELDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELDatabase.swift; sourceTree = "<group>"; };
+		4B90B7932293AE6500D3C6E4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4B90B7952293C4C700D3C6E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4B90B7982293C64A00D3C6E4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4B90B7C02293CD3C00D3C6E4 /* ELBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELBaseController.swift; sourceTree = "<group>"; };
+		4B90B7C22293CD5A00D3C6E4 /* ELNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELNavController.swift; sourceTree = "<group>"; };
+		4B90B7C42293CD7800D3C6E4 /* ELTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELTabController.swift; sourceTree = "<group>"; };
+		4B90B7C62293D39D00D3C6E4 /* ELAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELAccountController.swift; sourceTree = "<group>"; };
+		4B90B7C82293D3AF00D3C6E4 /* ELUsersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELUsersController.swift; sourceTree = "<group>"; };
+		4B90B7CA2293D3BE00D3C6E4 /* ELSettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELSettingController.swift; sourceTree = "<group>"; };
+		4B90B7CD2293D9A000D3C6E4 /* ELAddAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELAddAccountView.swift; sourceTree = "<group>"; };
+		4B90B7CF2293EA5800D3C6E4 /* ELModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELModels.swift; sourceTree = "<group>"; };
+		4BB306932296CACE00201ABE /* ELForgetPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELForgetPassView.swift; sourceTree = "<group>"; };
+		609815A2A126F77A7F74049D /* Pods-Never Forget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Forget.debug.xcconfig"; path = "Target Support Files/Pods-Never Forget/Pods-Never Forget.debug.xcconfig"; sourceTree = "<group>"; };
+		630B80B622A798FB0008AF99 /* Never Forget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Never Forget.entitlements"; sourceTree = "<group>"; };
+		632B442122A765B600485CFD /* Never Forget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Never Forget-Bridging-Header.h"; sourceTree = "<group>"; };
+		632B442522A76E9E00485CFD /* NFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFButton.swift; sourceTree = "<group>"; };
+		632B442722A77B0F00485CFD /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		731C5AE1A3E038AB0F397D98 /* Pods_Never_Forget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Never_Forget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C8770A1DEF3D6EB3B6AF0 /* Pods-Never Forget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Forget.release.xcconfig"; path = "Target Support Files/Pods-Never Forget/Pods-Never Forget.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B90B7732293A63C00D3C6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B90B7962293C4C700D3C6E4 /* CoreData.framework in Frameworks */,
+				4B90B7942293AE6500D3C6E4 /* libsqlite3.0.tbd in Frameworks */,
+				8DE30A06CE841F97979F790F /* Pods_Never_Forget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B90B76D2293A63C00D3C6E4 = {
+			isa = PBXGroup;
+			children = (
+				4B90B7782293A63C00D3C6E4 /* Never Forget */,
+				4B90B7772293A63C00D3C6E4 /* Products */,
+				4B90B7922293AE6400D3C6E4 /* Frameworks */,
+				B11DCE1B61AB00507274E31A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4B90B7772293A63C00D3C6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B90B7762293A63C00D3C6E4 /* Never Forget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B90B7782293A63C00D3C6E4 /* Never Forget */ = {
+			isa = PBXGroup;
+			children = (
+				630B80B622A798FB0008AF99 /* Never Forget.entitlements */,
+				4B90B7CC2293D98100D3C6E4 /* views */,
+				4B90B7BF2293CD0A00D3C6E4 /* base */,
+				4B90B7BE2293CCFC00D3C6E4 /* ctrls */,
+				4B90B79A2293C65400D3C6E4 /* datas */,
+				4B90B78B2293A6FA00D3C6E4 /* util */,
+				4B90B7792293A63C00D3C6E4 /* AppDelegate.swift */,
+				4B90B7802293A65F00D3C6E4 /* Assets.xcassets */,
+				4B90B7822293A65F00D3C6E4 /* LaunchScreen.storyboard */,
+				4B90B7852293A65F00D3C6E4 /* Info.plist */,
+				632B442122A765B600485CFD /* Never Forget-Bridging-Header.h */,
+			);
+			path = "Never Forget";
+			sourceTree = "<group>";
+		};
+		4B90B78B2293A6FA00D3C6E4 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				4B90B78C2293A71900D3C6E4 /* ELUtilFunctions.swift */,
+				4B90B78E2293AA9B00D3C6E4 /* ELEXT.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		4B90B7922293AE6400D3C6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B90B7952293C4C700D3C6E4 /* CoreData.framework */,
+				4B90B7932293AE6500D3C6E4 /* libsqlite3.0.tbd */,
+				731C5AE1A3E038AB0F397D98 /* Pods_Never_Forget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B90B79A2293C65400D3C6E4 /* datas */ = {
+			isa = PBXGroup;
+			children = (
+				4B90B7902293AE4900D3C6E4 /* ELDatabase.swift */,
+				4B90B7972293C64A00D3C6E4 /* Model.xcdatamodeld */,
+				4B90B7CF2293EA5800D3C6E4 /* ELModels.swift */,
+			);
+			path = datas;
+			sourceTree = "<group>";
+		};
+		4B90B7BE2293CCFC00D3C6E4 /* ctrls */ = {
+			isa = PBXGroup;
+			children = (
+				4B90B7C62293D39D00D3C6E4 /* ELAccountController.swift */,
+				4B90B7C82293D3AF00D3C6E4 /* ELUsersController.swift */,
+				4B90B7CA2293D3BE00D3C6E4 /* ELSettingController.swift */,
+				4B5A264D22968D04006C155F /* ELAboutUSController.swift */,
+			);
+			path = ctrls;
+			sourceTree = "<group>";
+		};
+		4B90B7BF2293CD0A00D3C6E4 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				632B442722A77B0F00485CFD /* UIColor.swift */,
+				4B90B7C02293CD3C00D3C6E4 /* ELBaseController.swift */,
+				4B90B7C22293CD5A00D3C6E4 /* ELNavController.swift */,
+				4B90B7C42293CD7800D3C6E4 /* ELTabController.swift */,
+				632B442522A76E9E00485CFD /* NFButton.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		4B90B7CC2293D98100D3C6E4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4B90B7CD2293D9A000D3C6E4 /* ELAddAccountView.swift */,
+				4B8B60F1229539E70014A1D9 /* ELAddUserView.swift */,
+				4B8B60F322953BFB0014A1D9 /* ELUserLoginView.swift */,
+				4B5A264322963854006C155F /* ELCatePickView.swift */,
+				4B5A264522964807006C155F /* ELUserSettingView.swift */,
+				4B5A264722966E4A006C155F /* ELEditNameView.swift */,
+				4B5A264922968966006C155F /* ELEditPassView.swift */,
+				4B5A264B22968AC3006C155F /* ELEditPromptView.swift */,
+				4BB306932296CACE00201ABE /* ELForgetPassView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B11DCE1B61AB00507274E31A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609815A2A126F77A7F74049D /* Pods-Never Forget.debug.xcconfig */,
+				BE2C8770A1DEF3D6EB3B6AF0 /* Pods-Never Forget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B90B7752293A63C00D3C6E4 /* Never Forget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B90B7882293A65F00D3C6E4 /* Build configuration list for PBXNativeTarget "Never Forget" */;
+			buildPhases = (
+				A8D0A2DC0D6198722892D987 /* [CP] Check Pods Manifest.lock */,
+				4B90B7722293A63C00D3C6E4 /* Sources */,
+				4B90B7732293A63C00D3C6E4 /* Frameworks */,
+				4B90B7742293A63C00D3C6E4 /* Resources */,
+				821988105BC50E3F4A8E4D5F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Never Forget";
+			productName = "Never Forget";
+			productReference = 4B90B7762293A63C00D3C6E4 /* Never Forget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B90B76E2293A63C00D3C6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Ruiying;
+				TargetAttributes = {
+					4B90B7752293A63C00D3C6E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4B90B7712293A63C00D3C6E4 /* Build configuration list for PBXProject "Never Forget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B90B76D2293A63C00D3C6E4;
+			productRefGroup = 4B90B7772293A63C00D3C6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B90B7752293A63C00D3C6E4 /* Never Forget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B90B7742293A63C00D3C6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B90B7842293A65F00D3C6E4 /* LaunchScreen.storyboard in Resources */,
+				4B90B7812293A65F00D3C6E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		821988105BC50E3F4A8E4D5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Never Forget/Pods-Never Forget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Never Forget/Pods-Never Forget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Never Forget/Pods-Never Forget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D0A2DC0D6198722892D987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Never Forget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B90B7722293A63C00D3C6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5A264822966E4A006C155F /* ELEditNameView.swift in Sources */,
+				4B90B78F2293AA9B00D3C6E4 /* ELEXT.swift in Sources */,
+				4B90B7C52293CD7800D3C6E4 /* ELTabController.swift in Sources */,
+				4B5A264E22968D04006C155F /* ELAboutUSController.swift in Sources */,
+				4B5A264622964807006C155F /* ELUserSettingView.swift in Sources */,
+				4B90B7D02293EA5800D3C6E4 /* ELModels.swift in Sources */,
+				4B5A264C22968AC3006C155F /* ELEditPromptView.swift in Sources */,
+				4B90B7C32293CD5A00D3C6E4 /* ELNavController.swift in Sources */,
+				4B90B7C92293D3AF00D3C6E4 /* ELUsersController.swift in Sources */,
+				4B90B77A2293A63C00D3C6E4 /* AppDelegate.swift in Sources */,
+				4B90B7912293AE4900D3C6E4 /* ELDatabase.swift in Sources */,
+				4B8B60F422953BFB0014A1D9 /* ELUserLoginView.swift in Sources */,
+				4B90B7CB2293D3BE00D3C6E4 /* ELSettingController.swift in Sources */,
+				632B442822A77B0F00485CFD /* UIColor.swift in Sources */,
+				4B5A264A22968967006C155F /* ELEditPassView.swift in Sources */,
+				632B442622A76E9E00485CFD /* NFButton.swift in Sources */,
+				4B90B7CE2293D9A000D3C6E4 /* ELAddAccountView.swift in Sources */,
+				4B90B7C12293CD3C00D3C6E4 /* ELBaseController.swift in Sources */,
+				4B90B78D2293A71900D3C6E4 /* ELUtilFunctions.swift in Sources */,
+				4B90B7C72293D39D00D3C6E4 /* ELAccountController.swift in Sources */,
+				4B8B60F2229539E70014A1D9 /* ELAddUserView.swift in Sources */,
+				4B90B7992293C64A00D3C6E4 /* Model.xcdatamodeld in Sources */,
+				4B5A264422963854006C155F /* ELCatePickView.swift in Sources */,
+				4BB306942296CACE00201ABE /* ELForgetPassView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B90B7822293A65F00D3C6E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B90B7832293A65F00D3C6E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B90B7862293A65F00D3C6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B90B7872293A65F00D3C6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B90B7892293A65F00D3C6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609815A2A126F77A7F74049D /* Pods-Never Forget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Never Forget/Never Forget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HQM62Y997;
+				INFOPLIST_FILE = "Never Forget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = el.whatPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Never Forget/Never Forget-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B90B78A2293A65F00D3C6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2C8770A1DEF3D6EB3B6AF0 /* Pods-Never Forget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Never Forget/Never Forget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HQM62Y997;
+				INFOPLIST_FILE = "Never Forget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = el.whatPassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Never Forget/Never Forget-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B90B7712293A63C00D3C6E4 /* Build configuration list for PBXProject "Never Forget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B90B7862293A65F00D3C6E4 /* Debug */,
+				4B90B7872293A65F00D3C6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B90B7882293A65F00D3C6E4 /* Build configuration list for PBXNativeTarget "Never Forget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B90B7892293A65F00D3C6E4 /* Debug */,
+				4B90B78A2293A65F00D3C6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B90B7972293C64A00D3C6E4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B90B7982293C64A00D3C6E4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4B90B7982293C64A00D3C6E4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B90B76E2293A63C00D3C6E4 /* Project object */;
+}
